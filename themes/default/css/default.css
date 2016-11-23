@@ -1,0 +1,109 @@
+h1 {
+    font-family: 'Lobster', serif;
+}
+
+.muted {
+    font-size: 50px;
+    color: rgb(34, 98, 168);
+}
+
+/*.navbar-inverse .navbar-inner {
+    background-image: linear-gradient(to bottom, rgb(4, 18, 34), rgb(34, 98, 168) );
+    border-color: rgb(34, 98, 168);
+}
+
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+    background-color: rgb(17, 50, 121);
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+    background-color: rgb(17, 50, 121);
+}*/
+a {
+    color: #061a31;
+}
+
+/* 公用 */ /*
+ * 导航
+ */
+.navbar-inverse .g-nav-bg {
+    background: url(../images/nav_bg.png) repeat-x;
+    border-left:1px solid #115984;
+    border-right:1px solid #115984;
+}
+
+.navbar.navbar-inverse .g-nav-lay ul.nav li a:hover {
+    background: url("../images/navv.png") top center no-repeat;
+}
+
+.navbar.navbar-inverse .g-nav-lay ul.nav li.selected a {
+    background: url("../images/navv.png") top center no-repeat;
+}
+
+/* 公用 结束 */ /*
+ * 头部
+ */
+.g-head {
+    background: url("../images/head_bg.png") repeat;
+}
+.g-head-left{
+	float:left;
+	width:663px;
+	height:77px;
+	position:absolute;
+    /*background: url("../images/head_left.png") repeat;*/
+}
+.g-head-right{
+	right:0px;
+	width:582px;
+	height:77px;
+	position:absolute;
+    /*background: url("../images/head_right.png") repeat;*/
+}
+
+.g-head .g-logo {
+    background: url("../images/logo_white.png") 20px center no-repeat;
+}
+
+.g-head2 {
+    background: url("../images/logo.png") 20px center no-repeat;
+}
+
+/* 
+ * 尾部
+ */
+.g-foot {
+    background-color: #fff;
+}/* 底部 模块*/
+.g-foot {
+    line-height: 20px;
+    color: #787777;
+    border-top: 1px solid #e5e5e5;
+    left:0;
+    right:0;
+    font-size: 12px;
+    height:44px;
+    line-height:44px;
+}
+
+.head-right {
+    float: left;
+    margin-left:40px;
+}
+
+.head-right span {
+    margin-right: 5px;
+    color: #aaa;
+}
+.site-info-right {
+    float: right;
+}
+.site-info-right span{
+    float: #ccc;
+}
+.site-info-right a,.site-info-righ span{color:#686868;}
+.site-info-right a:hover{text-decoration: underline;}
+.site-info-right span {
+    margin-right: 10px;
+}
+/* map end */

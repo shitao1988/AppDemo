@@ -1,0 +1,7 @@
+li{
+	background: url("../images/result_img/A.png") 4px center no-repeat;
+}
+
+li.hover,li.selected{
+	background: url("../images/result_img/A_v.png") 4px center no-repeat;
+}
